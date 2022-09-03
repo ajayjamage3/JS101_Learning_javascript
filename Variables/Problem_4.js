@@ -1,0 +1,20 @@
+var name, school, grade, section, rollno ,mark1,mark2,mark3;
+name = "Ajay Kiran Jamage";
+school = "K.P.S.P.";
+grade = 5;
+section = "D";
+rollno = 23;
+mark1 = 88;
+mark2 = 84;
+mark3 = 89;
+console.log("-------------Ｒｅｐｏｒｔ-------------")
+console.log("  * Name        = ",       name);
+console.log("  * Standard    = ",grade,"th");
+console.log("  * Division    = ",section);
+console.log("  * Roll No     = ",rollno);
+console.log("  * Maths       = ",mark1);
+console.log("  * English     = ",mark2);
+console.log("  * Science     = ",mark2);
+console.log("  * Total       = ",mark1+mark2+mark3);
+console.log("  * Percentage  = ",(mark1+mark2+mark3)/3,"%");
+console.log("-------------------------------------");
